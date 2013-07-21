@@ -1,10 +1,104 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang='en'>
-	<head>
-		<title>Michael Reinhart</title>
-	</head>
-	<body>
-		<h1>Michael Reinhart was here</h1>
-		<p>...and maybe he still is...</p>
-	</body>
+  <head>
+    <meta charset='utf-8'>
+    <title>mike reinhart</title>
+    <meta name="description" content="My Profile Page">
+    <meta name="author" content="Mike Reinhart">
+    
+    <link rel='stylesheet' href='css/base.css'>
+    <link rel='stylesheet' href='css/layout.css'>
+    <link rel='stylesheet' href='css/skeleton.css'>
+    <link rel='stylesheet' href='css/curtain.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <script src='js/jquery.min.js'></script>
+    <script src="js/curtain.js"></script>
+  </head>
+
+  <body>
+ <!--    <section class='background'>
+    </section> -->
+
+    <section class='container all'>
+      <!-- ===============================================================================      HEADER      -->
+      <section class='header-bar sixteen columns'>
+        <article class='two-thirds columns'>
+          <p id='name'>mike reinhart</p>
+        </article>
+        <article id='links'>
+
+          <a href="https://twitter.com/reinhartmike" target="_blank">
+            <img src="images/twitter.png" alt="Twitter"></a>
+          <a href="http://www.linkedin.com/in/reinhartmichael" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://github.com/mikereinhart" target="_blank">
+            <img src="images/github.png" alt="Github"></a>
+          <a href="https://twitter.com/reinhartmike" target="_blank">
+            <img src="images/gmail.png" alt="Gmail"></a>
+          <a href="http://mikesmeddlingmind.tumblr.com/" target="_blank">
+            <img src="images/tumblr.png" alt="Tumblr"></a>
+
+        </article>
+      </section>
+    </section>
+    <ol class='curtains'>
+      <!-- ===============================================================================        DEV       -->
+      <li class='slide' id='slide-1' style='background: rgb(232,49,61)'>
+        <section class='inner'>
+          <section class='container'>
+
+            <p class='head' >Full Stack Developer</p>
+            <div class='four columns' id='code-desc'>
+              <p>I'm nearly finished with General Assembly's Web Development Immersive Program. What does this mean? Well, to start it means I've been coding for an average of 85 hours a week for the past 3 months.</p>
+              <p>Over this time I've worked with my classmates to build several Rails apps, some of which are shown to the right. We've coordinated our work using Github and Pivotal Tracker. I've also built lots of apps on my own.</p>
+              <p>I know Ruby, Rails (3 and 4), Javascript, AJAX, HTML5, CSS3, HAML, SASS, Morris.js, D3.js, Angular.js, and Backbone.js. </p>
+            </div>
+
+            <div class='twelve columns'>
+              <div class='proj-inner'>
+                <div class='ten columns'>
+                  <div class='five columns'>
+                    <img src='images/lost_tribes220.jpg'>
+                  </div>
+                  <p class='four columns brew'>Lost Tribes is a beer company with a mission to resurrect brews from ancient times. I helped build and design their new website, which includes b2b where vendors can advertise tasting events directly on Lost Tribes' website.</p>
+                </div>
+                <div class='ten columns'>
+                  <div class='five columns'>
+                    <img src='images/nycsports.jpg'>
+                  </div>
+                  <p class='four columns sports'>NYC Sports is a news-aggregate site for serious New York sports fans. Rather than partrolling the web for articles about your favorite teams, we pull sports news from top sources and put it all in one place.</p>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </section>
+      </li>
+      <!-- ================================================================================       BIOLOGY       -->
+      <li class='slide' id='slide-2' style='background: rgb(2,156,39)'>
+        <article class='inner'>
+          <article class='container'>
+            <p class='head'>Full Stack Biologist</p>
+
+            <div class='seven columns' id='bio-desc'>
+              <p>I've formally studied the full range of biology, from the big parts like climate change, to the little parts like gene interaction. Most importantly, I've learned how it all fits together.</p>
+              <p>Graduated from Binghamton University's 3/2 Accelerated Degree Program, where I received my BA in Biology and my MS in Ecological, Evolutionary, and Behavioral Biology in five years.</p>
+              <p>I studied in an Evolutionary, Ecological and Conservation Genetics Laboratory for 3 years. Topics included intersexual genetic interactions, the genetic basis to natural variation in complex traits, the affects of the herbicides on mating behaviors, and more.</p>
+              <p>Served as Environmental Specialist (staff scientist) for the Passaic River Coalition. </p>
+            </div>
+
+
+          </article>
+        </article>
+      </li>
+    </ol>
+  </body>
 </html>
+
+<script>
+  $(function () {
+      $('.curtains').curtain({
+          scrollSpeed: 400
+      });
+  });
+</script>

@@ -1,0 +1,58 @@
+.background {
+  background: url('../images/sunset2.jpg') no-repeat fixed center;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.head {
+  font-size: 3.6em;
+  margin-top: 1em;
+}
+
+.header-bar {
+  margin: 2em auto;
+  /*background-color: yellow;*/
+  /*width: 100%;*/
+  /*height: 3em;*/
+  position: fixed;
+  z-index: 9;
+}
+
+#name {
+  font-size: 6em;
+  margin-left: -20px;
+  height: 100%;
+}
+
+.inner {
+  margin-top: 140px;
+}
+
+#links {
+  float: right;
+}
+
+#bio-desc {
+  margin-top: 1em;
+}
+
+#code-desc {
+  margin-top: 20px;
+}
+
+.proj-inner img {
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.brew {
+  margin-top: 20px;
+}
+
+.sports {
+  margin-top: 46px;
+}
