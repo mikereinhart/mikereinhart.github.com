@@ -70,8 +70,8 @@
   font-family: 'Raleway';
 }
 
-.project:hover {
-  /*background-color: rgba(255,255,255,0.5);*/
+/*.project:hover {
+  background-color: rgba(255,255,255,0.5);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -79,7 +79,7 @@
    -webkit-box-shadow: 10px 10px 10px #7c1010;
   -moz-box-shadow: 10px 10px 10px #7c1010;
   box-shadow: 10px 10px 10px #7c1010;
-}
+}*/
 
 .water img{
   margin-left: 42px;
