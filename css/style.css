@@ -9,9 +9,11 @@
 
 .head {
   font-size: 3.6em;
-  margin-top: 1em;
+  margin-top: 3em;
+  margin-left: 3px;
   font-family: 'Raleway';
   color: #7c1010;
+  font-weight: bold;
 }
 
 .header-bar {
@@ -29,6 +31,13 @@
   /*color: #7c1010;*/
 }
 
+#tagline {
+  font-family: 'Bevan';
+  font-size: 24px;
+  margin-left: -17px;
+  padding-top: 10px;
+}
+
 .inner {
   margin-top: 140px;
 }
@@ -39,17 +48,20 @@
 }
 
 #bio-desc {
-  margin-top: 32px;
+  margin-top: 27px;
   /*color: #ECE749;*/
   font-family: 'Raleway';
   font-size: 16px;
 }
 
 #code-desc {
-  margin-top: 37px;
+  margin-top: 27px;
   /*color: #ECE749;*/
   font-family: 'Raleway';
   font-size: 16px;
+  font-weight: bold;
+  /*background: rgba(255,255,255,0.5);*/  
+  padding: 10px;
 }
 
 .proj-inner img {
@@ -58,16 +70,26 @@
   /*margin-left: 40px;*/
 }
 
-.brew {
-  margin-top: 40px;
-  /*color: #ECE749;*/
+#brew {
   font-family: 'Raleway';
+  margin-left: -20px;
+  margin-top: 40px;
+  font-weight: bold;
 }
 
 .sports {
   margin-top: 46px;
   /*color: #ECE749;*/
   font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#scroll {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Raleway';
+  
 }
 
 /*.project:hover {
@@ -95,6 +117,11 @@
   font-weight: bold;
 }
 
+#ga-link {
+  text-decoration: none;
+  color: #7c1010;
+}
+
 #prc-link {
   text-decoration: none;
   font-weight: bold;
@@ -108,6 +135,14 @@
   color: #7c1010; 
 }
 
+#ga-link:hover {
+  color: #444444;
+}
+
+#brewtribe {
+  box-shadow: 5px 5px 5px #444444;
+  border-radius: 5px;
+}
 
 
 
